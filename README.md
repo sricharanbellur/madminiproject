@@ -1,4 +1,4 @@
-# madminiproject
+# MAD MINI PROJECT 
 MAD Mini project for MAD LAB(6th sem ISE -18CSMP68) App name Vtu SGPA CGPA Calculator
 
 This App Calculates SGPA For CSE/ISE, Physics and chemistry Cycle 
