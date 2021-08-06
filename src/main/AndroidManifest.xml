@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sgpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SgpaCalculator">
+        <activity android:name=".PerActivity"></activity>
+        <activity android:name=".Ise8semActivity" />
+        <activity android:name=".Ise7semActivity" />
+        <activity android:name=".Ise6semActivity" />
+        <activity android:name=".Ise5semActivity" />
+        <activity android:name=".Ise4semActivity" />
+        <activity android:name=".Ise3semActivity" />
+        <activity android:name=".Cse8semActivity" />
+        <activity android:name=".Cse7semActivity" />
+        <activity android:name=".Cse6semActivity" />
+        <activity android:name=".Cse5semActivity" />
+        <activity android:name=".Cse4semActivity" />
+        <activity android:name=".Cse3semActivity" />
+        <activity android:name=".ChemistryActivity" />
+        <activity android:name=".PhysicsActivity" />
+        <activity android:name=".IsesemActivity" />
+        <activity android:name=".CsesemActivity" />
+        <activity android:name=".CgpaActivity" />
+        <activity android:name=".SgpaActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
