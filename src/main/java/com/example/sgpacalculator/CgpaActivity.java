@@ -65,7 +65,7 @@ public class CgpaActivity extends AppCompatActivity {
             float sem7 = Float.parseFloat(s7.getText().toString());
             float sem8 = Float.parseFloat(s8.getText().toString());
 
-            if ((sem1 <= 10.0 && sem1 > 0.0) && (sem2 <= 10.0 && sem2 > 0.0) && (sem3 <= 10.0 && sem3 > 0.0) && (sem4 <= 10.0 && sem4 > 0.0) && (sem5 <= 10.0 && sem5 > 0.0) && (sem6 <= 10.0 && sem6 > 0.0) && (sem7 <= 10.0 && sem7 > 0.0) && (sem8 <= 10.0 && sem8 > 0.0)) {
+            if ((sem1 <= 10.0 && sem1 >= 0.0) && (sem2 <= 10.0 && sem2 >= 0.0) && (sem3 <= 10.0 && sem3 >= 0.0) && (sem4 <= 10.0 && sem4 >= 0.0) && (sem5 <= 10.0 && sem5 >= 0.0) && (sem6 <= 10.0 && sem6 >= 0.0) && (sem7 <= 10.0 && sem7 >= 0.0) && (sem8 <= 10.0 && sem8 >= 0.0)) {
                 if (sem3 == 0.0 && sem4 == 0.0 && sem5 == 0.0 && sem6 == 0.0 && sem7 == 0.0 && sem8 == 0.0) {
                     float cgpa = (float) ((float) (20.0 * sem1 + 20.0 * sem2) / 40.0);
                     cgpares.setText(String.valueOf(cgpa));
